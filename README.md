@@ -1,4 +1,4 @@
 # KSHOO
 # H1
 ## H2 
-# KS1206/github.io/KSHOO/FOLDER NAME.html
+# SAMPLE (https://ks1206.github.io/KSHOO/Activities/Activity1a.html)
