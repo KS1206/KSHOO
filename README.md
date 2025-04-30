@@ -2,4 +2,4 @@
 # H1
 ## H2 
 ### H3
-KSHOO/github.io//name.html
+KS1206/github.io/KSHOO/FOLDER NAME.html
