@@ -1,0 +1,52 @@
+body {
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Georgia, serif;
+}
+
+hr {
+  height: 4px;
+  background-color: yellow;
+  border: none;
+}
+
+img.character {
+  height: 300px;
+  width: 400px;
+  border: 6px solid purple;
+  margin: 10px 20px;
+  float: left;
+}
+
+img.skill {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.font-violet {
+  color: violet;
+  font-size: 16px;
+}
+
+.font-green {
+  color: lightgreen;
+  font-size: 16px;
+}
+
+.font-pink {
+  color: pink;
+  font-size: 16px;
+}
+
+.big-bold {
+  font-size: 20px;
+  font-weight: bold;
+}
