@@ -1,0 +1,127 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Segoe UI', sans-serif;
+background-color: #fffaf2;
+color: #333;
+line-height: 1.6;
+}
+
+.page-header {
+background-color: #ff6600;
+color: white;
+text-align: center;
+padding: 50px 20px;
+}
+
+.page-header h1 {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.page-header p {
+font-size: 18px;
+}
+
+.requirement-container {
+max-width: 1000px;
+margin: 40px auto;
+padding: 0 20px;
+}
+
+
+.requirement-block {
+background-color: white;
+padding: 30px;
+margin-bottom: 30px;
+border-left: 6px solid #ff6600;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.requirement-block h2 {
+color: #ff6600;
+margin-bottom: 20px;
+font-size: 26px;
+}
+
+.requirement-block h3 {
+margin-top: 20px;
+font-size: 20px;
+color: #e65c00;
+}
+
+.requirement-block ul {
+padding-left: 20px;
+margin-top: 10px;
+}
+
+.requirement-block ul li {
+margin-bottom: 10px;
+font-size: 16px;
+}
+
+
+.small-box {
+width: 60%;
+margin: 0 auto 30px auto;
+}
+
+
+.wide-box {
+width: 100%;
+background-color: #fff1e6;
+}
+
+
+.regulation-list {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+margin-top: 10px;
+}
+
+.regulation-item {
+flex: 1 1 45%;
+background-color: #fff;
+border-left: 5px solid #ff6600;
+padding: 15px 20px;
+border-radius: 6px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+font-size: 16px;
+}
+
+
+.back-button {
+text-align: center;
+margin: 40px 0;
+}
+
+.back-button a {
+background-color: #ff6600;
+color: white;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 6px;
+font-size: 16px;
+font-weight: 500;
+transition: background-color 0.3s ease;
+}
+
+.back-button a:hover {
+background-color: #cc5200;
+}
+
+
+.page-footer {
+background-color: #ff6600;
+color: white;
+text-align: center;
+padding: 15px;
+font-size: 14px;
+}

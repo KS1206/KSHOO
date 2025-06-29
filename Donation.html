@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Donate to KS University</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel=icon href=LOGO.png type=image/png>
+<link rel="stylesheet" href="Donation.css">
+</head>
+<body>
+
+<header class="page-header">
+<h1>Support KS University</h1>
+<p>Your donation helps us build a better future for education.</p>
+</header>
+
+<main class="donation-container">
+
+<div class="slider">
+<button class="nav left" onclick="changeSlide(-1)">&#10094;</button>
+<img id="slide-image" src="BOOKS.jpg" alt="Donation Banner">
+<button class="nav right" onclick="changeSlide(1)">&#10095;</button>
+</div>
+
+<button class="donate-button">Donate Now</button>
+
+</main>
+
+<div class="back-button">
+<a href="MAIN.html">← Back to Main Page</a>
+</div>
+
+<footer class="page-footer">
+<p>© 2025 KS University. All Rights Reserved.</p>
+</footer>
+
+<script>
+const images = ["BOOKS.jpg", "MONEY.jpg", "duck.jpg"];
+let current = 0;
+
+function changeSlide(step) {
+current = (current + step + images.length) % images.length;
+document.getElementById("slide-image").src = images[current];
+}
+</script>
+
+</body>
+</html>

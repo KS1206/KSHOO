@@ -1,0 +1,113 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background-color: #f0fff0;
+color: #2e5c2e;
+}
+
+/* Header */
+.page-header {
+background-color: #2e8b57;
+color: white;
+text-align: center;
+padding: 50px 20px;
+}
+
+.page-header h1 {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.page-header p {
+font-size: 18px;
+}
+
+
+.donation-container {
+text-align: center;
+padding: 40px 20px;
+}
+
+.slider {
+position: relative;
+max-width: 600px;
+margin: 0 auto 30px;
+}
+
+#slide-image {
+width: 100%;
+height: auto;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nav {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-color: rgba(46, 139, 87, 0.8);
+color: white;
+font-size: 24px;
+border: none;
+padding: 10px 14px;
+cursor: pointer;
+border-radius: 50%;
+}
+
+.left {
+left: 10px;
+}
+
+.right {
+right: 10px;
+}
+
+.nav:hover {
+background-color: #246d48;
+}
+
+
+.donate-button {
+background-color: #3cb371;
+color: white;
+padding: 14px 30px;
+font-size: 18px;
+font-weight: bold;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+
+.donate-button:hover {
+background-color: #2e8b57;
+}
+
+
+.back-button {
+text-align: center;
+margin: 40px 0;
+}
+
+.back-button a {
+background-color: #3cb371;
+color: white;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 6px;
+font-size: 16px;
+font-weight: 500;
+}
+
+.back-button a:hover {
+background-color: #2e8b57;
+}
+
+
+.page-footer {
+background-color: #2e8b57;
+color: white;
+text-align: center;
+padding: 15px;
+font-size: 14px;
+}
